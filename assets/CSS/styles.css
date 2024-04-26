@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jacquard+24&family=Jersey+10+Charted&family=Jersey+20&family=Oswald:wght@200..700&family=Sedan:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+/* Header Area */
+.header{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.header h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.header h1 a{
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.header ul{
+    text-align: right;
+    float: left;
+    width: 50%;
+    padding-top: 1em;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.header ul li a{
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+}
+
+.banner{
+    background-image: url(../images/europe\ 2.avif);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    position: relative;
+}
+
+.flag-euro{
+    background-image: url(../images/flag\ Euro.webp);
+    position: absolute;
+    left: 17%;
+    top: 3%;
+    width: 80px;
+    height: 50px;
+    background-size: cover;
+    /* border-radius: 20%; */
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.banner-text h2{
+    color: #fff;
+    font-size: 3em;
+}
+
+.banner-text p{
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background: #312a26;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+
+
+/* Western Europe */
+.Direction{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.section-header h2{
+    font-size: 3em;
+    color: #708090;
+    font-family: "Sedan", serif;
+}
+
+.section-header hr{
+    background-color: #000;
+    height: 5px;
+    width: 35%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.country-gallary{
+    margin-top: 2em;
+    overflow: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.country h3{
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.country-sam{
+    font-family: "Oswald", sans-serif;
+    padding-left: 1px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.country-sam td{
+    padding-right: 10px;
+}
+
+.country{
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+}
+
+.country-img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.country h3{
+    font-family: "Sedan", serif;
+    font-size: 2em;
+    color: #8b0000;
+}
+
+/* .country:nth-child(2), */
+.country:nth-child(4){
+    margin-right: 0;
+}
+
+table{
+    width: 50%;
+    float: left;
+}
+
+#UK{
+    background-image: url(../images/UK\ 1.jpg);
+}
+
+#France{
+    background-image: url(../images/Fra\ 1.jpeg);
+}
+
+#Germany{
+    background-image: url(../images/Ger\ 1.avif);
+}
+
+#Netherland{
+    background-image: url(../images/Netherland\ 1.jpg);
+}
+
+.flag{
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    float: right;
+}
+
+#f-UK{
+    background-image: url(../images/flag\ UK\ 2.jpg);
+}
+
+#f-Fra{
+    background-image: url(../images/Fra\ flag.jpg);
+}
+
+#f-Ger{
+    background-image: url(../images/flag\ Ger.jpg);
+}
+
+#f-Neth{
+    background-image: url(../images/flag\ Neth.jpg);
+}
+
+.more{
+    margin-top: 20px;
+}
+.more a{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #8b0000;
+    background-size:40px;
+    width: 260px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5%;
+    height: 50px;
+    padding: 10px;
+}
+
+/* Recommend */
+
+.recommend{
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+    background-color: #ffdab9;
+    position: relative;
+}
+
+.recommend hr{
+    width: 50px;
+    color: #800000;
+    height: 3px;
+    position: absolute;
+    z-index: 1;
+}
+
+.recommend h2{
+    color: #800000;
+    padding-bottom: 10px;
+    font-size: 2em;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.rec-com h3{
+    font-size: 35px;
+    color: #ff0000;
+    
+}
+
+.rec-com p{
+    margin-top: 30px;
+    color: #000;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+.rec-img{
+    background-size: cover;
+    width: 300px;
+    height: 220px;
+    float: right;
+    border-radius: 30%;
+    border: 1px solid #fff;
+}
+
+.rec-com a{
+    width: 170px;
+    font-size: 150;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background: #312a26;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    height: 50px;
+    padding-top: 12px;
+}
+
+#rec-wes{
+    background-image: url(../images/Beatles.avif);
+    position: absolute;
+    top: 15%;
+    left: 77%;
+    z-index: 1;
+    background-position: center;
+}
+
+#liv-fun{
+    background-image: url(../images/liv-fun.avif);
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    /* z-index: 2; */
+}
+
+#liv-road{
+    background-image: url(../images/liv-road.avif);
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+
+.rec-com{
+    float: left;
+    width: 60%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+#f-Ita{
+    background-image: url(../images/flag\ Ita.jpg);
+}
+
+#f-Spa{
+    background-image: url(../images/flag\ spa.jpg);
+}
+
+#f-Por{
+    background-image: url(../images/flag\ Por.jpg);
+}
+
+#f-Gre{
+    background-image: url(../images/flag\ Gre.jpg);
+}
+
+
+/* 4. Southern Europe */
+#Italy{
+    background-image: url(../images/italy.avif);
+}
+
+#Spain{
+    background-image: url(../images/spain.jpg);
+}
+
+#Portugal{
+    background-image: url(../images/porto1.jpg);
+}
+
+#Greece{
+    background-image: url(../images/Greece.jpeg);
+}
+
+#rec-sou{
+    background-image: url(../images/Ita-sta.avif);
+    position: absolute;
+    top: 45%;
+    left: 74%;
+    /* z-index: 1; */
+    background-position: center;
+}
+
+#Ita-str{
+    background-image: url(../images/Ita-str.jpg);
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    z-index: 1;
+    background-position: center;
+}
+
+#Ita-chi{
+    background-image: url(../images/Ita-pisa.jpg);
+    position: absolute;
+    top: 8%;
+    left: 77%;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+.rec-food{
+    width: 90%;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+}
+
+.rec-food img{
+    width: 150px;
+    height: 100px;
+    border: 2px solid #fff;
+}
+
+
+/* 5. Northern Europe */
+#Norway{
+    background-image: url(../images/Norway2.jpg);
+}
+
+#Sweden{
+    background-image: url(../images/Swe--.jpg);
+}
+
+#Finland{
+    background-image: url(../images/fin.avif);
+}
+
+#Denmark{
+    background-image: url(../images/den.jpg);
+}
+
+#rec-nor{
+    background-image: url(../images/fin-auro.jpg);
+    background-position: center;
+    position: absolute;
+    top: 6%;
+    left: 60%;
+    z-index: 1;
+}
+
+#fin-sau{
+    background-image: url(../images/Fin-sauna\ 2.jpg);
+    position: absolute;
+    top: 45%;
+    left: 67%;
+    /* z-index: 1; */
+    background-position: center;
+}
+
+#fin-dog{
+    background-image: url(../images/fin-dog.avif);
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    /* z-index: 1; */
+    background-position: center;
+}
+
+
+
+.fin-lake{
+    background-image: url(../images/fin-lake.jpg);
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top: 70%;
+    left: 40%;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #fff;
+    
+
+}
+
+.fin-dive{
+    background-image: url(../images/fin-sauna-dive.avif);
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top: 70%;
+    left: 51%;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #fff;
+    
+
+}
+
+#f-Nor{
+    background-image: url(../images/flag\ Nor.jpg);
+}
+
+#f-Swe{
+    background-image: url(../images/flag\ Swe.jpg);
+}
+
+#f-Fin{
+    background-image: url(../images/flag\ Fin.jpg);
+}
+
+#f-Dem{
+    background-image: url(../images/flag\ Dem.jpg);
+}
+
+/* 6. Eastern Europe */
+#Hungary{
+    background-image: url(../images/hungary.jpg);
+}
+
+#CzechRepublic{
+    background-image: url(../images/checo.jpeg);
+}
+
+#Romania{
+    background-image: url(../images/Rumania.jpg);
+}
+
+#Austria{
+    background-image: url(../images/Austria.avif);
+}
+
+#rec-east{
+    background-image: url(../images/rec-east.avif);
+    background-position: center;
+}
+
+#f-Hun{
+    background-image: url(../images/flag\ Hun.jpg);
+}
+
+#f-Cze{
+    background-image: url(../images/flag\ che.jpg);
+}
+
+#f-Rom{
+    background-image: url(../images/flag\ Rom.jpg);
+}
+
+#f-Aus{
+    background-image: url(../images/flag\ Aou.jpg);
+}
+
+
+/* 7. Footer */
+.footer{
+    /* background: url(../images/footer-euro.jpg); */
+    width: 100%;
+    height: 350px;
+    padding-left: 10%;
+    padding-top: 30px;
+    position: relative;
+    z-index: 0;
+    /* opacity: 0.5; */
+    /* color: rgba(0, 0, 0, 1); */
+}
+
+.footer:before{
+    background-image: url(../images/footer-euro.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    content: '';
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.post,
+.writer,
+.evaluate{
+    width: 400px;
+    float: left;
+    /* opacity: 1; */
+    color: rgba(0, 0, 0, 1);
+}
+
+.post table,
+.writer table,
+.evaluate table{
+    width: 300px;
+    height: 150px;
+    font-weight: 800;
+}
+
+.post table td,
+.writer table td,
+.evaluate table td{
+    padding-left: 20px;
+}
+
+.writer table tr td,
+.post table tr td{
+    padding-top: 15px;
+}
+
+.writer table tr{
+    width: 10px;
+}
+
+
+select,
+input{
+    width: 264px;
+    height: 30px;
+}
+input,
+select,
+textarea{
+    margin-left: 30px;
+}
+
+.evaluate{
+    margin-left: 30px;
+}
+
+button{
+    width: 140px;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #c7a17a;
+}
+
+.evaluate table{
+    padding-top: 15px;
+}
+
+.end{
+    width: 100%;
+    height: 50px;
+    background-color: #a0522d;
+    position: relative;
+}
+
+.europe{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+.kredo{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+
